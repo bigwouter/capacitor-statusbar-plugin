@@ -2,6 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'CapacitorIosStatusbarPlugin'
   s.version          = '1.0.0'
   s.summary          = 'iOS Statusbar Transparency Plugin for Capacitor'
+  s.homepage         = 'https://github.com/bigwouter/capacitor-statusbar-plugin'
   s.license          = { :type => 'MIT' }
   s.author           = { 'Wouter Baeten' => 'bigwouterstyle@hotmail.com' }
   s.source           = { :git => 'https://github.com/bigwouter/capacitor-statusbar-plugin.git', :tag => s.version.to_s }
