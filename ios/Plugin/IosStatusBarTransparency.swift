@@ -2,7 +2,14 @@ import Foundation
 import Capacitor
 
 @objc(IosStatusBarTransparencyPlugin)
-public class IosStatusBarTransparencyPlugin: CAPPlugin {
+public class IosStatusBarTransparencyPlugin: CAPPlugin, CAPBridgedPlugin {
+    // Registration that replaces the Objective-C CAP_PLUGIN macro,
+    // so the plugin can be built with Swift Package Manager (Swift-only targets)
+    public let identifier = "IosStatusBarTransparencyPlugin"
+    public let jsName = "IosStatusBarTransparency"
+    public let pluginMethods: [CAPPluginMethod] = [
+        CAPPluginMethod(#selector(enableTransparency(_:)), returnType: .promise)
+    ]
 
     @objc func enableTransparency(_ call: CAPPluginCall) {
         DispatchQueue.main.async { [weak self] in
