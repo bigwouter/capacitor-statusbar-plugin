@@ -1,0 +1,23 @@
+{
+  "name": "capacitor-statusbar-plugin",
+  "version": "1.0.0",
+  "description": "Forces transparency on iOS Status Bar for MABS 12 apps",
+  "main": "",
+  "scripts": {},
+  "keywords": [
+    "ecosystem:capacitor",
+    "capacitor-plugin",
+    "ios"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@capacitor/core": "^6.0.0"
+  }
+}
