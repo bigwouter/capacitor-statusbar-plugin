@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'CapacitorIosStatusbarPlugin'
+  s.name             = 'CapacitorStatusbarPlugin'
   s.version          = '1.0.0'
   s.summary          = 'iOS Statusbar Transparency Plugin for Capacitor'
   s.homepage         = 'https://github.com/bigwouter/capacitor-statusbar-plugin'
