@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT' }
   s.author           = { 'Wouter Baeten' => 'bigwouterstyle@hotmail.com' }
   s.source           = { :git => 'https://github.com/bigwouter/capacitor-statusbar-plugin.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '14.0'
+  s.ios.deployment_target = '15.0'
   s.source_files     = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
   s.dependency 'Capacitor'
   s.swift_version = '5.1'
